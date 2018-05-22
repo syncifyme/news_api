@@ -6,4 +6,6 @@ import (
 
 func main() {
 	server.Start()
+
+	// fmt.Println(time.Now().Format("2006/apr/02"))
 }
