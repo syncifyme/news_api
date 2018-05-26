@@ -43,6 +43,12 @@
 
 [[projects]]
   branch = "master"
+  name = "github.com/vjeantet/jodaTime"
+  packages = ["."]
+  revision = "be924ce213fb35f66c810b61e051965eb78b82d0"
+
+[[projects]]
+  branch = "master"
   name = "golang.org/x/net"
   packages = [
     "html",
@@ -96,6 +102,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "209110a0c5f938f07724c6f0a04422298fff29b5829c5721fcccfa76709228c3"
+  inputs-digest = "c1a4efd11c491f49c586bd14d177abe4d042f22faa8122836d0b65407bfca439"
   solver-name = "gps-cdcl"
   solver-version = 1
